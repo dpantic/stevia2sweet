@@ -30,10 +30,18 @@ header {
     font-size: 24px;
     
   }
+
   a {
     color: #FFF;
     text-decoration: none;
+		color: #C1FFC1;		
   }
+	 a:hover { /* hover gelb  oben rechts home */
+	  color: yellow;
+	  text-decoration: none;
+	}
+
+
   ul {
     position: absolute;
     right: 100px;
@@ -56,7 +64,7 @@ header {
   padding: 20px 100px;
   font-weight: normal;
   font-style: italic;
-  color: #90EE90;
+  color: #C1FFC1;
 	
   background: -webkit-gradient(linear, left top, left bottom, from(#228B22), to(#90EE90));
   background: -moz-linear-gradient(top,  #228B22, #90EE90);
