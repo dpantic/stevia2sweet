@@ -1,5 +1,8 @@
 require File.expand_path('../boot', __FILE__)
 
+ENV['GEM_PATH'] = '/home3/airtwohe/ruby/gems:/usr/lib/ruby/gems/1.9'
+
+
 # Pick the frameworks you want:
 require "active_record/railtie"
 require "action_controller/railtie"
